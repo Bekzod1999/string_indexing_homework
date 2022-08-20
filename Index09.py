@@ -13,5 +13,5 @@ def main(s):
     else:
         k = -1
     return k
-x=main('/')
+x=main('k')
 print(x)
