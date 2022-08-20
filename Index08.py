@@ -18,10 +18,9 @@ def main(s):
     if s[4] == '*':
         return 5
     if k == 0:
-        return False
-            
-    return k
-x=main('goo*s')
+        return False  
+
+x=main('gooxs')
 print(x)
         
 
