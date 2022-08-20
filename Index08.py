@@ -6,18 +6,18 @@ def main(s):
     Returns:
         int: answer
     """
-    k=0
-    if s[0] == '*':
+    
+    if s[0]=="*":
+        return 0
+    elif s[1]=="*":
         return 1
-    if s[1] == '*':
+    elif s[2]=="*":
         return 2
-    if s[2] == '*':
+    elif s[3]=="*":
         return 3
-    if s[3] == '*':
+    elif s[4]=="*":
         return 4
-    if s[4] == '*':
-        return 5
-    if k == 0:
+    else:
         return False  
 
 x=main('gooxs')
