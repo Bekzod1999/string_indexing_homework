@@ -7,11 +7,15 @@ def main(s):
         int: answer
     """
     # 48 - 57
-
-    if ord(s) > 47 and ord(s) < 58:
+    if len(s) == 2:
+        if ord(s[0]) == 45 and ord(s[1]) > 47 and ord(s[1]) < 58:
+            k=s
+        else:
+            k = -1
+    elif ord(s) > 47 and ord(s) < 58:
         k = s
     else:
         k = -1
-    return k
-x=main('k')
+    return k 
+x=main('l')
 print(x)
