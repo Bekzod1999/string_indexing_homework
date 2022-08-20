@@ -6,4 +6,12 @@ def main(s):
     Returns:
         int: answer
     """
-    return
+    # 48 - 57
+
+    if ord(s) > 47 and ord(s) < 58:
+        k = s
+    else:
+        k = -1
+    return k
+x=main('/')
+print(x)
