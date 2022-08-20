@@ -7,46 +7,22 @@ def main(s):
         int: answer
     """
     k=0
-    if len(s) > 4:
-        if s[0] == '*':
-            k+=1
-        if s[1] == '*':
-            k+=1
-        if s[2] == '*':
-            k+=1
-        if s[3] == '*':
-            k+=1
-        if s[4] == '*':
-            k+=1
-    elif len(s) > 3:
-        if s[0] == '*':
-            k+=1
-        if s[1] == '*':
-            k+=1
-        if s[2] == '*':
-            k+=1
-        if s[3] == '*':
-            k+=1
-    elif len(s) > 2:
-        if s[0] == '*':
-            k+=1
-        if s[1] == '*':
-            k+=1
-        if s[2] == '*':
-            k+=1
-    elif len(s) > 1:
-        if s[0] == '*':
-            k+=1
-        if s[1] == '*':
-            k+=1  
-    elif len(s) > 0:
-        if s[0] == '*':
-            k+=1
-   
+    
+
+    if ord(s[0]) == 42:
+        k+=1
+    if ord(s[1]) == 42:
+        k+=1
+    if ord(s[2]) == 42:
+        k+=1
+    if ord(s[3]) == 42:
+        k+=1
+    if ord(s[4]) == 42:
+        k+=1
     if k == 0:
         k = bool(0)
             
     return k
-x=main('dj*od')
+x=main('*d*fs')
 print(x)
         
