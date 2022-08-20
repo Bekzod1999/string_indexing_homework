@@ -9,11 +9,11 @@ def main(s):
     # 48 - 57
     if len(s) == 2:
         if ord(s[0]) == 45 and ord(s[1]) > 47 and ord(s[1]) < 58:
-            k=s
+            k=int(s)
         else:
             k = -1
     elif ord(s) > 47 and ord(s) < 58:
-        k = s
+        k = int(s)
     else:
         k = -1
     return k 
