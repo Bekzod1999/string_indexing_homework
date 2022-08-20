@@ -7,8 +7,20 @@ def main(s):
         int: answer
     """
     k=0
-    
-    if len(s) == 5:
+    if len(s) == 6:
+        if ord(s[0]) == 42:
+            k+=1
+        if ord(s[1]) == 42:
+            k+=1
+        if ord(s[2]) == 42:
+            k+=1
+        if ord(s[3]) == 42:
+            k+=1
+        if ord(s[4]) == 42:
+            k+=1
+        if ord(s[5]) == 42:
+            k+=1
+    elif len(s) == 5:
         if ord(s[0]) == 42:
             k+=1
         if ord(s[1]) == 42:
