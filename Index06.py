@@ -6,4 +6,6 @@ def main(s):
     Returns:
         str: answer
     """
-    return
+    return s[0:len(s):len(s)-1]
+x=main('bildsr')
+print(x)
