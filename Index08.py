@@ -20,7 +20,7 @@ def main(s):
     else:
         return False  
 
-x=main('gooxs')
+x=main('goo*s')
 print(x)
         
 
